@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 21px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    background-color: #080001;
+    color: #F94F6D;
+    width: 120px;
+    line-height: 127px;
+    border-radius: 5px;
+    font-family: 'myFont', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    padding: 20px 30px;
+    margin: 20px;
+
+}
+
+button {
+    background: none;
+    border: 2px solid #9AABD8;
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    border-radius: 2px;
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url("myFont/DIGITALDREAMNARROW.ttf"); format('truetype');
+}
