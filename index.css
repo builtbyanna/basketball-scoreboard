@@ -1,11 +1,11 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: #1B244A;
+    background: linear-gradient(#F1FAEE, #E63946);
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color: #EEEEEE;
+    color: #E63946;
     margin: 21px;
 }
 
@@ -15,8 +15,8 @@ body {
 }
 
 p {
-    background-color: #080001;
-    color: #F94F6D;
+    background: linear-gradient( #E63946, #F1FAEE);
+    color: #A8DADC;
     width: 120px;
     line-height: 127px;
     border-radius: 5px;
@@ -30,14 +30,30 @@ p {
 
 button {
     background: none;
-    border: 2px solid #9AABD8;
+    border: 2px solid #A8DADC;
     height: 45px;
     width: 45px;
-    color: #9AABD8;
+    color: #A8DADC;
     border-radius: 2px;
+}
+
+#new {
+text-align: center;
+margin-top: 40px;
+height: 60px;
+width: 200px;
+font-family: 'myFont';
+font-size: 25px;
+font-weight: bold;
 }
 
 @font-face {
     font-family: 'myFont';
     src: url("myFont/DIGITALDREAMNARROW.ttf") format('truetype');
 }
+
+.highlight {
+    background: #E63946;
+    font-weight: bold;
+}
+
